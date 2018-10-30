@@ -6,3 +6,5 @@ function findMatching (drivers, string) {
 function fuzzyMatch(drivers, string) {
   return drivers.filter(d => d[0] === string[0] )
 }
+
+function 
