@@ -3,4 +3,6 @@ function findMatching (drivers, string) {
   return drivers.filter(d => d.toLowerCase() === string.toLowerCase())
 }
 
-function 
+function fuzzyMatch(drivers, string) {
+  return drivers.filter(d => d[0] === string[0] )
+}
